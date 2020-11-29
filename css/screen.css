@@ -48,18 +48,16 @@ h4 {
   border-radius: 300px;
   width: auto;
   height: 150px;
-  margin-top: -50px;
+  margin-top: -75px;
   margin-bottom: 50px;
 }
-
-
 
 .qualites {
   text-align: center;
   padding-bottom: 4rem;
 }
 
-.qualites img {
+.panneau-qualite img {
   height: auto;
   width: 100px;
 }
