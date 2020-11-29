@@ -222,11 +222,11 @@ h4 {
 
 .footer2 {
   height: 3rem;
-  background-color: black;
+  background-color: rgb(24, 24, 24);
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 75%;
-
+  border-top: 1px dotted white;
 }
 
 .footer2 p {
