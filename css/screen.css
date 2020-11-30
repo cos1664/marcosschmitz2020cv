@@ -197,7 +197,7 @@ h4 {
 }
 
 .footer-media-social a:hover {
-  background-color:  #43fe9f;
+  background: linear-gradient(45deg, rgba(199,93,255,1) 0%, rgba(67,254,159,1) 100%);
   color: white;
 }
 
