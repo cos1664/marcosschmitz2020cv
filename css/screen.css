@@ -31,21 +31,25 @@ header {
 }
 
 h1 {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.1em;
   text-transform: uppercase;
-  font-size: 2.2rem;
-  padding-top: 60px;
+  font-size: 2rem;
+  padding-top: 50px;
   color: darksalmon;
   text-align: center;
   margin: 0;
 }
 
 h3 {
+  font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   font-size: 1.5rem;
   text-align: center;
 }
 
 h4 {
+  font-family: 'Playfair Display', serif;
   color: white;
   font-size: 1.5rem;
   margin-bottom: 0.7rem;
@@ -103,6 +107,7 @@ h4 {
 }
 
 .experience caption {
+  font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   height: 30px;
   font-size: 1.5rem;
@@ -170,8 +175,9 @@ h4 {
 }
 
 .hobbys {
-  padding-top: 2rem;
+  padding-top: 5rem;
   text-align: center;
+  
 }
 
 .hobbys img {
@@ -180,7 +186,7 @@ h4 {
 }
 
 .hobbys-noms {
-  font-size: 78%;
+  font-size: 75%;
 }
 
 .footer-media-social {
@@ -219,10 +225,12 @@ h4 {
 
 .footer1 {
   background-image: url(../images/baner-noir.jpg);
+  background-position: 1% 10%;
   color: white;
   padding-bottom: 7rem;
   padding-top: 2rem;
   text-align: center;
+  box-shadow: inset 0px 2px 7px 0px rgba(0,0,0,0.90);
 }
 
 .footer1 p {
@@ -245,20 +253,28 @@ h4 {
 }
 
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   header {
     background-position: 40% 0%, 55%;
+  }
+  .hobbys-noms {
+    font-size: 85%;
   }
 }
 
 
 @media screen and (min-width: 768px) {
   header {
-    background-position: 40% 25%, 15%;
+    background-position: 40% 0%, 15%;
   }
 
   h1 {
-    padding-top: 100px;
+    padding-top: 80px;
+    font-size: 2rem;
+  }
+
+  .hobbys-noms {
+    font-size: 90%;
   }
 
   .footer-coordonees {
@@ -275,5 +291,13 @@ h4 {
 
   .footer1 {
     background-position: bottom;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  h1 {
+    padding-top: 80px;
+    font-size: 2.2rem;
   }
 }
